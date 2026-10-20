@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    padding: 1rem 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+
+    .imagem-header {
+        width: 3rem;
+    }
+}
+
+.header-items {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+
+    a {
+        font: var(--mat-sys-title-medium);
+    }
+
+    .botoes {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+}
