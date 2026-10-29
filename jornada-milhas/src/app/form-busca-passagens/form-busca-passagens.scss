@@ -1,0 +1,17 @@
+:host {
+    display: block;
+}
+
+.form-wrapper {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+
+    border-radius: 1rem;
+    background-color: #e6e5e5;
+}
+
+.titulo {
+    font:var(--mat-sys-headline-large);
+}
