@@ -5,6 +5,7 @@
 // custom components at https://material.angular.dev/guide/theming
 @use '@angular/material' as mat;
 @use './theme-colors' as tema;
+@use './reset.scss'; 
 
 html {
   height: 100%;
@@ -36,5 +37,5 @@ body {
   // Reset the user agent margin.
   margin: 0;
   height: 100%;
+  background-color: #F8F2F9; 
 }
-@import './reset.scss';
